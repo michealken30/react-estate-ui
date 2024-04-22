@@ -1,0 +1,29 @@
+.homepage {
+  display: flex;
+  height: 100vh;
+
+  .textcontainer {
+    flex: 3;
+
+    .wrapper {
+      padding-right: 100px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      height: 100px;
+    }
+  }
+  .imagecontainer {
+    flex: 2;
+    background-color: #fcf5f3;
+    position: relative;
+
+    img {
+      width: 115%;
+      position: absolute;
+      right: 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

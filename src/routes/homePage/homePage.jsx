@@ -1,4 +1,6 @@
+import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
+
 const HomePage = () => {
   return (
     <div className="homepage">
@@ -11,7 +13,7 @@ const HomePage = () => {
             ipsum quos sed minima sint voluptatibus reprehenderit, non at
             delectus. Harum, quae iste.
           </p>
-          <searchBar />
+          <SearchBar />
           <div className="boxes">
             <div className="box">
               <h1>16</h1>
